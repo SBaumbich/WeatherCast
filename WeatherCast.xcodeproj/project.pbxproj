@@ -12,6 +12,8 @@
 		0D5DDBCE1CE8C3D100A01BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5DDBCC1CE8C3D100A01BCB /* Main.storyboard */; };
 		0D5DDBD01CE8C3D100A01BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5DDBCF1CE8C3D100A01BCB /* Assets.xcassets */; };
 		0D5DDBD31CE8C3D100A01BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5DDBD11CE8C3D100A01BCB /* LaunchScreen.storyboard */; };
+		0D5DDBDB1CE8C41600A01BCB /* CurrentWeather.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D5DDBDA1CE8C41600A01BCB /* CurrentWeather.plist */; };
+		0D5DDBDD1CE8C5FF00A01BCB /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DDBDC1CE8C5FF00A01BCB /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0D5DDBCF1CE8C3D100A01BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D5DDBD21CE8C3D100A01BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D5DDBD41CE8C3D100A01BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5DDBDA1CE8C41600A01BCB /* CurrentWeather.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CurrentWeather.plist; sourceTree = "<group>"; };
+		0D5DDBDC1CE8C5FF00A01BCB /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				0D5DDBC81CE8C3D100A01BCB /* AppDelegate.swift */,
+				0D5DDBDC1CE8C5FF00A01BCB /* CurrentWeather.swift */,
 				0D5DDBCA1CE8C3D100A01BCB /* ViewController.swift */,
 				0D5DDBCC1CE8C3D100A01BCB /* Main.storyboard */,
 				0D5DDBCF1CE8C3D100A01BCB /* Assets.xcassets */,
 				0D5DDBD11CE8C3D100A01BCB /* LaunchScreen.storyboard */,
+				0D5DDBDA1CE8C41600A01BCB /* CurrentWeather.plist */,
 				0D5DDBD41CE8C3D100A01BCB /* Info.plist */,
 			);
 			path = WeatherCast;
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5DDBD31CE8C3D100A01BCB /* LaunchScreen.storyboard in Resources */,
+				0D5DDBDB1CE8C41600A01BCB /* CurrentWeather.plist in Resources */,
 				0D5DDBD01CE8C3D100A01BCB /* Assets.xcassets in Resources */,
 				0D5DDBCE1CE8C3D100A01BCB /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5DDBCB1CE8C3D100A01BCB /* ViewController.swift in Sources */,
+				0D5DDBDD1CE8C5FF00A01BCB /* CurrentWeather.swift in Sources */,
 				0D5DDBC91CE8C3D100A01BCB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
